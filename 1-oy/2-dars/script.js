@@ -94,20 +94,20 @@ console.log("A" == "a"); // False
 // Home work start
 console.log("Home work start");
 
-// 2-Prefix and Postfix
+// 1-Prefix and Postfix
 
 let c = 1, k = 1;
 
 let i = ++c; // 2
 let e = k++; // 1
 
-// 3-Assitment result
+// 2-Assitment result
 
 let y =2;
 
 let x = 1 + (y *= 2); // 5
 
-// 4-Type conversion
+// 3-Type conversion
 
 "" + 1 + 0 // 10
 "" -1 + 0 // 0              //Answer is -1
@@ -124,7 +124,7 @@ null + 1 // null            //Answer is 1
 undefined + 1 // NaN
 " \t \n" - 2 //Nan          //Answer is -2
 
-// 5-Comparisons
+// 4-Comparisons
 
 5 > 4 // true
 "apple" > "pinapple" //false
