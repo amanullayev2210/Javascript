@@ -1,0 +1,12 @@
+JS doc - https://javascript.info
+JS mozilla doc - https://developer.mozilla.org/en-US/docs/Web/JavaScript
+Flexbox playground - https://codepen.io/enxaneta/full/adLPwv/
+Google fonts - https://fonts.google.com/
+Google webfonts helper - https://gwfh.mranftl.com
+normalize - https://necolas.github.io/normalize.css/
+minifix - https://www.toptal.com/developers/cssminifier
+autoprefix - https://autoprefixer.github.io/ru
+Font awesome - https://cdnjs.com/libraries/font-awesome
+FA search - https://fontawesome.com/search
+Clip path - https://bennettfeely.com/clippy
+Animation icons - https://loading.io
