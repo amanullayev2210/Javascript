@@ -1,57 +1,51 @@
-// !== > < >= <= tenglik belgilar
+let num = 5;
+if (num == 5) {
+  console.log("num teng");
+} else console.log("num teng emas");
 
-let d = 5;
-if (d === 5) console.log("teng"); // teng
+let score = 85;
+let res = score >= 90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : "F";
+console.log(res);
 
-switch (d) {
-  case 5:
-    console.log("teng");
-    break;
-  case 4:
-    console.log("4 kichik");
-    break;
-  case 3:
-    console.log("3 kichik");
-    break;
-  default:
-    console.log("Default ");
-    break;
-}
+let ter = score ? "score" : "N/A";
 
-// Loops
+// Null and Undefined
 
-console.log(1);
-console.log(2);
-console.log(3);
-console.log(4);
-console.log(5);
+console.log(); // true/false
 
-let c = 0
+let user = null;
+console.log("A" ?? user);
 
-++c // pre-incroment
-c++ // post-incroment
+let firstName = null;
+let lastName = null;
+let nickName = "nimadur";
 
-let k = 1;
-console.log(k++);
-console.log(k); //
+console.log(firstName ?? lastName ?? nickName ?? "Anonymous");
 
-let i = 1;
-for (let i = 1; i <= 10; i++) {
-  //   if (i % 2 === 0) {
-  //     break
-  //   }
+console.log(null || 0 || undefined); // true/false
+console.log(null ?? 0 ?? undefined);
 
-//   console.log(i);
-}
+let height = 0;
 
-outer: for (let i = 1; i <= 10; i++) {
-  inner: for (let j = 1; j <= i; j++) {
-    if (j === 5) {
-      console.log(j);
-      break outer;
-    }
-  }
-}
+console.log(height || 50); // 50
+console.log(height ?? 50); // 0
+
+let height2 = null;
+let width = null;
+
+let area = (height2 ?? 100) * (width ?? 50);
+
+console.log(area); // 5000
+
+console.log("a" === "A".toLowerCase());
+
+console.log(0 ?? 2 ?? null); // 0
+console.log(0 || 2 || null); // 2
+
+// || -> birinchi true bo'lgan qiymatni qaytardi va oirgi false qaytaradi
+// && -> birinchi false bo'lgan qiymatni qaytardi va oirgi true qaytaradi
+// ?? -> null va undefined bo'lmagan har qanday qiymatni, belgini qaytaradi.
+// ! -> hammasining teskarisi
 
 
 // Home work start 
