@@ -1,0 +1,131 @@
+*, 
+::before, 
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffffff, #87CEFA);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* hero start */
+
+.hero_tittle {
+    margin-top: 20px;
+    font-size: 34px;
+    color: #111517;
+    text-align: center;
+}
+
+.hero_form {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-form_inp {
+    margin-right: 20px;
+    padding-block: 10px;
+    padding-inline: 15px;
+    max-width: 495px;
+    width: 100%;
+    border-radius: 6px;
+    border: 0;
+    outline: none;
+}
+
+.hero-form_button {
+    padding-block: 10px;
+    padding-inline: 15px;
+    max-width:  95px;
+    width: 100%;
+    background-color: #FFD050;
+    color: #232536;
+    border-radius: 6px;
+    border: 0;
+}
+
+
+.hero_items {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+
+.hero_item {
+    padding: 20px;
+    max-width: 395px;
+    min-height: 500px;
+    width: 100%;
+}
+
+.hero_img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-item_tittle {
+    margin-top: 6px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #111517;
+    text-align: center;
+}
+
+.hero-item_info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-item_span {
+    margin-left: 5px;
+    color: #111517;
+}
+
+.hero-link_wrapper {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.hero-item_link {
+    font-size: 16px;
+    line-height: 24px;
+    color: #19a3e4;
+}
+
+/* Responsive start */
+
+@media only screen and (max-width: 830px) {
+    .hero_items {
+        flex-direction: column;
+    }
+
+    .hero_form {
+        justify-content: center;
+    }
+}

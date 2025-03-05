@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/script.js" defer></script>
+    <title>IMDb Api</title>
+    <link rel="shortcut icon" href="./assets/imgs/favcion.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero_wrapper">
+                    <h1 class="hero_tittle">Search your favorite film!</h1>
+                    <form class="js-form hero_form">
+                        <input type="text" placeholder="Search..." class="js-search_inp hero-form_inp">
+                        <button type="submit" class="hero-form_button">Submit</button>
+                    </form>
+                    <ul class="js-render_list hero_items"></ul>
+                    <template class="js-template">
+                        <li class="js-render_item hero_item">
+                            <img class="js-render_img hero_img" alt="Not found">
+                            <h3 class="js-tittle_name hero-item_tittle"></h3>
+                            <div class="hero-item_info">
+                                <p class="hero-item_text">Type<span class="js-type hero-item_span"></span></p>
+                                <p class="hero-item_text">Year<span class="js-year hero-item_span"></span></p>
+                            </div>
+                            <p class="hero-link_wrapper"><a href="#" target="_blank" class="js-imdbid hero-item_link">Watch in IMDb official</a></p>
+                        </li>
+                    </template>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
