@@ -1,0 +1,159 @@
+*, 
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #ffffff, #87CEFA);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_wrapper {
+    padding-block: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header_item {
+
+    a {
+    font-size: 16px;
+    color: #101110;
+    text-transform: uppercase;
+    }
+}
+
+/* first start */
+
+.first_form {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.first_inp {
+    margin-right: 20px;
+    padding-block: 10px;
+    padding-inline: 15px;
+    max-width: 495px;
+    width: 100%;
+    border-radius: 6px;
+    border: 0;
+    outline: none;
+}
+.first_buton {
+    padding-block: 10px;
+    padding-inline: 15px;
+    max-width: 95px;
+    width: 100%;
+    background-color: #FFD050;
+    color: #232536;
+    border-radius: 6px;
+    border: 0;
+}
+
+.js-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: first baseline;
+    flex-direction: column;
+
+    p {
+    margin-top: 12px;
+    padding-left: 10px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #111517;
+    text-align: center;
+    }
+}
+
+/* two start */
+
+.two_form {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.two_inp {
+    margin-right: 20px;
+    padding-block: 10px;
+    padding-inline: 15px;
+    max-width: 495px;
+    width: 100%;
+    border-radius: 6px;
+    border: 0;
+    outline: none;
+}
+
+.two_button {
+    padding-block: 10px;
+    padding-inline: 15px;
+    max-width: 95px;
+    width: 100%;
+    background-color: #FFD050;
+    color: #232536;
+    border-radius: 6px;
+    border: 0;
+}
+
+/* last start */
+
+.last_form {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.last_plus {
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-block: 10px;
+    padding-inline: 15px;
+    max-width: 95px;
+    width: 100%;
+    background-color: #FFD050;
+    color: #232536;
+    border-radius: 20px;
+    border: 0;
+}
+
+.last_minus {
+    padding-block: 10px;
+    padding-inline: 15px;
+    max-width: 95px;
+    width: 100%;
+    background-color: #FFD050;
+    color: #232536;
+    border-radius: 20px;
+    border: 0;
+}
+
